@@ -2,7 +2,7 @@
  * @Author: hibana2077 hibana2077@gmail.com
  * @Date: 2024-03-02 13:55:58
  * @LastEditors: hibana2077 hibana2077@gmail.com
- * @LastEditTime: 2024-03-02 17:04:27
+ * @LastEditTime: 2024-03-02 22:16:56
  * @FilePath: \Hoffmann_web_page\web\src\components\NavbarMenu.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -28,10 +28,18 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/enclosed-plant-breeding-system">
+              Enclosed Plant Breeding System
+            </HoveredLink>
+            <HoveredLink href="/vertical-aero-farming-system">
+              Vertical Aero Farming System
+            </HoveredLink>
+            <HoveredLink href="/family-micro-farming-system">
+              Family Micro Farming System
+            </HoveredLink>
+            <HoveredLink href="/astro-farming">
+              Astro Farming System
+            </HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Products">
