@@ -9,3 +9,13 @@ services:
       - "4321:4321"
     dns:
       - "8.8.8.8"
+    networks:
+      - hoffmann
+      - proxy
+
+
+networks:
+  hoffmann:
+    driver: bridge
+  proxy:
+    external: true
