@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  web:
+    build: ./web
+    container_name: web
+    ports:
+      - "4321:4321"
+    networks:
+      - bridge
+    dns:
+      - "8.8.8.8"
+
+networks:
+  bridge:
+    external: true
