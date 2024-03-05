@@ -2,9 +2,9 @@ version: '3.8'
 
 services:
 
-  web:
+  web_hoffmann:
     build: ./web
-    container_name: web
+    container_name: web_hoffmann
     ports:
       - "4321:4321"
     networks:
