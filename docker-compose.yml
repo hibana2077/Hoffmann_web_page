@@ -7,11 +7,5 @@ services:
     container_name: web_hoffmann
     ports:
       - "4321:4321"
-    networks:
-      - bridge
     dns:
       - "8.8.8.8"
-
-networks:
-  bridge:
-    external: true
